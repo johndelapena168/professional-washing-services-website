@@ -1,0 +1,8 @@
+# Route rewrites for React Router (clean URLs)
+/               /home.html        200
+/about          /about.html       200
+/services       /services.html    200
+/contact        /contact.html     200
+
+# SPA fallback - serve home.html for unmatched routes
+/*              /home.html        200
